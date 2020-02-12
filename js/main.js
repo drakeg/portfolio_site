@@ -19,7 +19,7 @@
 	  $logo.fadeOut('slow');
 	});	
 
-    
+	
 	/* ---------------------------------------------------------------------- */
 	/*	Resume
 	/* ---------------------------------------------------------------------- */
@@ -48,6 +48,23 @@
 		});
 
     });
+
+	$('#yellow-color').click(function(e) {
+		$(".main-wrapper-resume").attr("id", "yellow");
+	});
+	$('#red-color').click(function(e) {
+		$(".main-wrapper-resume").attr("id", "red");
+	});
+	$('#blue-color').click(function(e) {
+		$(".main-wrapper-resume").attr("id", "blue");
+	});
+	$('#green-color').click(function(e) {
+		$(".main-wrapper-resume").attr("id", "green");
+	});
+	$(".setting-icon").click(function() {
+		$(".color-box").toggleClass("main");
+	});
+
 
 	/* ---------------------------------------------------------------------- */
 	/*	About
