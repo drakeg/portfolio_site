@@ -175,8 +175,8 @@
 		filter				: '*',
 		layoutMode   		: 'masonry',
 		animationOptions	: {
-		duration			: 750,
-		easing				: 'linear'
+			duration			: 750,
+			easing				: 'linear'
 	   }
 	});	
 	
@@ -186,11 +186,11 @@
 		$plist.isotope({ 
 		filter				: selector,
 		animationOptions	: {
-		duration			: 750,
-		easing				: 'linear',
-		queue				: false,
+			duration			: 750,
+			easing				: 'linear',
+			queue				: false,
 	   }
 	  });
 	  return false;
 	});	 
-});	
+});

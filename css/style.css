@@ -228,6 +228,8 @@ ul.socialicons {
     margin-top: 15px;
     font-weight: 400;
     color: #3a3a3a;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
 }
 #portfolio-list li .categorie {
     font-size: 11px;
@@ -254,7 +256,7 @@ ul.socialicons {
     text-decoration: none;
 }
 .cats-filter li a.current {
-    background-color: #cf45cc;
+    background-color: #cf455c;
 }
 .extra-text {
     font-family: 'Roboto Condensed', sans-serif;
